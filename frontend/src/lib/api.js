@@ -1,6 +1,4 @@
-const BASE = import.meta.env.VITE_API_BASE
-  ? `${import.meta.env.VITE_API_BASE}/api`
-  : '/api';
+const BASE = `https://lims-5-v4.onrender.com/api`
 
 function getToken() { return localStorage.getItem('coal_lims_token'); }
 
